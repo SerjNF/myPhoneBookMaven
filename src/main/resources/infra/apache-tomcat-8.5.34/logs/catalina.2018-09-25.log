@@ -1,0 +1,56 @@
+25-Sep-2018 19:49:51.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+25-Sep-2018 19:49:51.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+25-Sep-2018 19:49:51.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+25-Sep-2018 19:49:51.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+25-Sep-2018 19:49:51.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+25-Sep-2018 19:49:51.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+25-Sep-2018 19:49:51.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             c:\Program Files\Java\jre1.8.0_181
+25-Sep-2018 19:49:51.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_181-b13
+25-Sep-2018 19:49:51.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Sep-2018 19:49:51.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\infra\apache-tomcat-8.5.34
+25-Sep-2018 19:49:51.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\infra\apache-tomcat-8.5.34
+25-Sep-2018 19:49:51.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\infra\apache-tomcat-8.5.34\conf\logging.properties
+25-Sep-2018 19:49:51.510 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Sep-2018 19:49:51.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Sep-2018 19:49:51.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Sep-2018 19:49:51.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+25-Sep-2018 19:49:51.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\infra\apache-tomcat-8.5.34
+25-Sep-2018 19:49:51.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\infra\apache-tomcat-8.5.34
+25-Sep-2018 19:49:51.525 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\infra\apache-tomcat-8.5.34\temp
+25-Sep-2018 19:49:51.525 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [c:\Program Files\Java\jre1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\forem\AppData\Local\NoteBook FanControl\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\forem\AppData\Local\Microsoft\WindowsApps;;C:\Users\forem\AppData\Local\Programs\Fiddler;C:\Users\forem\AppData\Local\Microsoft\WindowsApps;C:\Users\forem\AppData\Local\Programs\Microsoft VS Code\bin;.]
+25-Sep-2018 19:49:52.353 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Sep-2018 19:49:52.830 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Sep-2018 19:49:52.845 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2018 19:49:52.845 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+25-Sep-2018 19:49:52.845 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2229 ms
+25-Sep-2018 19:49:52.892 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Sep-2018 19:49:52.892 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+25-Sep-2018 19:49:52.908 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\infra\apache-tomcat-8.5.34\webapps\docs]
+25-Sep-2018 19:49:53.463 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\infra\apache-tomcat-8.5.34\webapps\docs] has finished in [555] ms
+25-Sep-2018 19:49:53.467 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\infra\apache-tomcat-8.5.34\webapps\examples]
+25-Sep-2018 19:49:55.079 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\infra\apache-tomcat-8.5.34\webapps\examples] has finished in [1,612] ms
+25-Sep-2018 19:49:55.079 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\infra\apache-tomcat-8.5.34\webapps\HelloWord]
+25-Sep-2018 19:49:55.141 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\infra\apache-tomcat-8.5.34\webapps\HelloWord] has finished in [62] ms
+25-Sep-2018 19:49:55.141 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\infra\apache-tomcat-8.5.34\webapps\host-manager]
+25-Sep-2018 19:49:55.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\infra\apache-tomcat-8.5.34\webapps\host-manager] has finished in [47] ms
+25-Sep-2018 19:49:55.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\infra\apache-tomcat-8.5.34\webapps\manager]
+25-Sep-2018 19:49:55.251 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\infra\apache-tomcat-8.5.34\webapps\manager] has finished in [63] ms
+25-Sep-2018 19:49:55.251 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\infra\apache-tomcat-8.5.34\webapps\ROOT]
+25-Sep-2018 19:49:55.298 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\infra\apache-tomcat-8.5.34\webapps\ROOT] has finished in [47] ms
+25-Sep-2018 19:49:55.313 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+25-Sep-2018 19:49:55.329 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2018 19:49:55.329 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2490 ms
+25-Sep-2018 19:57:25.675 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/HelloWord]
+25-Sep-2018 19:57:25.675 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWord] has started
+25-Sep-2018 19:57:25.757 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWord] is completed
+25-Sep-2018 19:59:25.832 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/HelloWord]
+25-Sep-2018 19:59:25.832 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWord] has started
+25-Sep-2018 19:59:25.923 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/HelloWord] is completed
+25-Sep-2018 20:02:38.445 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+25-Sep-2018 20:02:38.445 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Sep-2018 20:02:38.617 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2018 20:02:38.773 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Sep-2018 20:02:38.835 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Sep-2018 20:02:38.835 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+25-Sep-2018 20:02:38.835 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Sep-2018 20:02:38.851 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
